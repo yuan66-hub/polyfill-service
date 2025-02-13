@@ -14,5 +14,5 @@ service_id = "06FSzBcnfHpOjSqXwzOxvy"
 # service_id = "3AfcolkTD4KUfkrKGIYZ4T"
 
 [scripts]
-  build = "cargo build --bin service --release --target wasm32-wasi --color always -p service && cp target/wasm32-wasi/release/service.wasm bin/main.wasm"
+  build = "cargo build --bin service --release --target wasm32-wasip1 --color always -p service && cp target/wasm32-wasip1/release/service.wasm bin/main.wasm"
 
